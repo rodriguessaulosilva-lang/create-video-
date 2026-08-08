@@ -1,0 +1,23 @@
+{
+  "name": "video-editor-remotion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Composições Remotion isoladas do video-editor (formato 9:16, 30fps).",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MainVideo out/video.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "4.0.434",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.434"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.434",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}
